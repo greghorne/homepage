@@ -1,3 +1,3 @@
-# www.greghorne.me homepage
+# www.greghorne.me
 - Bootstrap, HTML, CSS
 - A simple webpage listing my projects.

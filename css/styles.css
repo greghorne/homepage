@@ -34,6 +34,8 @@ body {
 	 text-align: left;
 }
 
+
+
 /* Lastly, apply responsive CSS fixes as necessary */
 @media (max-width: 767px) {
 	#footer {

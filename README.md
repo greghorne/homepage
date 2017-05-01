@@ -1,3 +1,10 @@
 # www.greghorne.me
-- Bootstrap, HTML, CSS
+
+*Overview*
 - A simple webpage listing my projects.
+
+*Tech Stack*
+- Bootstrap
+- HTML
+- CSS
+- Deployment - AWS's S3

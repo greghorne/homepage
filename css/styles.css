@@ -7,8 +7,8 @@ body {
 
 body {
 	/*background-color: lightgray;*/
-	/*background-image: url(../images/paper.png);*/
-	background-image: url(../images/orangeish.jpg);
+	background-image: url(../images/paper.png);
+	/* background-image: url(../images/orangeish.jpg); */
 }
 
 /* Wrapper for page content to push down footer */
@@ -27,10 +27,11 @@ body {
 }
 
 #footer {
-	/*background-image: url(../images/computer-data-analytics-red-background-website-header.jpg);*/
+	background-image: url(../images/computer-data-analytics-blue-background-website-header.jpg);
 	/*background-image: url(../images/reddish.jpg);*/
 	/*background-color: #f88a1b;*/
-	background-image: url(../images/orange-footer.jpg)
+	/*background-image: url(../images/orange-footer.jpg) */
+	color: white
 }
 
 .align-left {

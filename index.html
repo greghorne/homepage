@@ -36,8 +36,8 @@
 			        	<h1>Greg Horne <a href="https://www.linkedin.com/in/gmhorne" target="_blank"><img src="images/In-2CRev-21px-R.png" alt="LinkedIn"></a></h1>
 			        </div>
 					<p><b>This page contains information and links to some of my work.</b></p>
-					<p>One may notice that a lot of my personal projects gravitate towards GIS in some manner.  This is because I have worked in this area and having a meaningful map as an end product I find quite interesting.</p>
-					<p>Data is really the key so I am often on the hunt for a new and/or better source.  I use 2010 census data in some places which is dated but free.  For real world production purposes, there are 3rd party vendors out there that sell updated/estimated data.</p>
+					<p>One will notice that a lot of my personal projects gravitate towards GIS in some manner.  This is because I have worked in this area and having a meaningful map as an end product I find quite interesting.</p>
+					<p>Data is really the key so I am often on the hunt for a new and/or better source.  I do use 2010 census data in some places which is dated but free.  For real world production purposes, there are 3rd party vendors out there that sell updated/estimated data.</p>
 			        <br>
 
 					<p><b>Hardware and Application Deployment:</b></p>
@@ -54,24 +54,15 @@
 					<p><b>Raspberry Pi 3 B</b></p>
 					<p>- Hypriot OS (Debian v9.4)</p>
 					<p>- Docker Swarm: Global Administrative Boundaries in MongoDB</p>
-					<p>- Docker Containers: CoordinateInfo-API, go-api's (Bing, HERE, Targomo, intersects-usa), Shake-Shake</p>
+					<p>- Docker App Containers: CoordinateInfo-API, GO API's (various), Shake-Shake</p>
 					<br>
 
-					<p><i><b>Go API (various)</b></i></p>
+					<p><i><b>Go API's (various)</b></i></p>
 					<table>
-						<tr><td class="col-xs-2"><i><b>Description:</b></i></td><td class="col-xs-10">Three different API's that are narrowly defined for requesting isochrone (drive time) polygons.  Handles Bing Maps, HERE & Targomo API calls.  API's will be used in a different project.</td></tr>
+						<tr><td class="col-xs-2"><i><b>Description:</b></i></td><td class="col-xs-10">Various GOLANG API's that are narrowly defined for requesting isochrone (drive time) polygons.  Handles Bing Maps, HERE, Mapbox & Targomo API calls.  API's will be used in a different project.</td></tr>
 						<tr><td class="col-xs-2"><i><b>Tech Stack:</b></i></td><td class="col-xs-10">Go, Postman, Docker</td></tr>
 						<tr><td class="col-xs-2"><i><b>Deployment: </b></i></td><td class="col-xs-10">Raspberry Pi</td></tr>
-						<tr><td class="col-xs-2"><i><b>GitHub:</b></i></td><td class="col-xs-10"><a href="https://github.com/greghorne/go-api-bing" target="_blank">https://github.com/greghorne/go-api-bing</a><br><a href="https://github.com/greghorne/go-api-here" target="_blank">https://github.com/greghorne/go-api-here</a><br><a href="https://github.com/greghorne/go-api-targomo" target="_blank">https://github.com/greghorne/go-api-targomo</a></td></tr>
-					</table>
-					<br>		
-
-					<p><i><b>Go API (Intersect USA)</b></i></p>
-					<table>
-						<tr><td class="col-xs-2"><i><b>Description:</b></i></td><td class="col-xs-10">Given an x,y determine if it intersects U.S. State boundaries.  First attempt at Go and will be used in a different project.</td></tr>
-						<tr><td class="col-xs-2"><i><b>Tech Stack:</b></i></td><td class="col-xs-10">Go, Postman, Docker</td></tr>
-						<tr><td class="col-xs-2"><i><b>Deployment: </b></i></td><td class="col-xs-10">Raspberry Pi - <a href="http://zotac1.ddns.net:8000/v1/intersects-usa/-95.992775/36.153980" target="_blank">http://zotac1.ddns.net:8000/v1/intersects-usa/-95.992775/36.153980/</a></td></tr>
-						<tr><td class="col-xs-2"><i><b>GitHub:</b></i></td><td class="col-xs-10"> <a href="https://github.com/greghorne/go-api-intersect-usa" target="_blank">https://github.com/greghorne/go-api-intersect-usa</a></td></tr>
+						<tr><td class="col-xs-2"><i><b>GitHub:</b></i></td><td class="col-xs-10"><a href="https://github.com/greghorne/go-api-bing" target="_blank">https://github.com/greghorne/go-api-bing</a><br><a href="https://github.com/greghorne/go-api-here" target="_blank">https://github.com/greghorne/go-api-here</a><br><a href="https://github.com/greghorne/go-api-mapbox" target="_blank">https://github.com/greghorne/go-api-mapbox</a><br><a href="https://github.com/greghorne/go-api-targomo" target="_blank">https://github.com/greghorne/go-api-targomo</a><br></td></tr>
 					</table>
 					<br>		
 
@@ -92,6 +83,15 @@
 						<tr><td class="col-xs-2"><i><b>GitHub:</b></i></td><td class="col-xs-10"> <a href="https://github.com/greghorne/Mappy-Data" target="_blank">https://github.com/greghorne/Mappy-Data</a></td></tr>
 					</table>
 					<br>
+
+					<p><i><b>Go API (Intersect USA)</b></i></p>
+					<table>
+						<tr><td class="col-xs-2"><i><b>Description:</b></i></td><td class="col-xs-10">Given an x,y determine if it intersects U.S. State boundaries.  This will be used in a different project.</td></tr>
+						<tr><td class="col-xs-2"><i><b>Tech Stack:</b></i></td><td class="col-xs-10">Go, Postman, Docker</td></tr>
+						<tr><td class="col-xs-2"><i><b>Deployment: </b></i></td><td class="col-xs-10">Raspberry Pi - <a href="http://zotac1.ddns.net:8000/v1/intersects-usa/-95.992775/36.153980" target="_blank">http://zotac1.ddns.net:8000/v1/intersects-usa/-95.992775/36.153980/</a></td></tr>
+						<tr><td class="col-xs-2"><i><b>GitHub:</b></i></td><td class="col-xs-10"> <a href="https://github.com/greghorne/go-api-intersect-usa" target="_blank">https://github.com/greghorne/go-api-intersect-usa</a></td></tr>
+					</table>
+					<br>		
 
 					<p><a href=" http://coordinateinfo-client.s3-website-us-east-1.amazonaws.com" target="_blank"><i><b>CoordinateInfo-Client</b></i></a></p>
 					<table>
